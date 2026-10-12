@@ -17,7 +17,33 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Sundress – Editorial Streetwear Commerce Platform",
+    title: "ShopSphere – Admin Control Dashboard",
+    desc: "Full-stack MERN e-commerce admin dashboard with order tracking, user management, real-time performance analytics, and inventory control.",
+    img: "https://res.cloudinary.com/diwn1spcp/image/upload/w_1200,q_85,f_auto,dpr_auto/v1755380053/dashboard_eaf9vg.png",
+    tools: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Tailwind",
+      "Gsap",
+      "Express",
+      "OAuth",
+    ],
+    live: "https://shopsphere-online.netlify.app/dashboard/dashboard-login",
+    github:
+      "https://github.com/SolomonNnamani/Shopsphere/tree/main/client/src/components/dashboard",
+  },
+  {
+    title: "ShopSphere – Commerce Platform",
+    desc: "Full-stack e-commerce platform with product browsing, secure checkout, inventory tracking, and a sleek, mobile-friendly UI.",
+    img: "https://res.cloudinary.com/diwn1spcp/image/upload/w_1200,q_85,f_auto,dpr_auto/v1755380063/mainsite_ssgxp7.png",
+    tools: ["React", "Javascript", "MongoDB", "Tailwind", "Gsap", "Cloudinary"],
+    live: "https://shopsphere-online.netlify.app/",
+    github:
+      "https://github.com/SolomonNnamani/Shopsphere/tree/main/client/src/components/mainSite",
+  },
+  {
+    title: "Sundressmade – Editorial Streetwear Commerce Platform",
     desc: "A full-scale storefront built for SUNDRESS®, a Nigerian streetwear brand. Developed with Shopify Storefront API and Next.js, the platform delivers a premium, editorial-first shopping experience powered by GraphQL and dynamic data-driven UX. Core features include a horizontal scroll hero, category filtering, real-time inventory sync, zoom interactions on product images, variant-based image galleries, a back-in-stock notification system with automated email workflows via Resend, and a Moments editorial gallery with lightbox navigation. Designed to balance brand identity with technical precision, clean API architecture, modern front-end craft, and an admin experience that requires zero developer intervention.",
     img: "https://res.cloudinary.com/diwn1spcp/image/upload/w_1200,q_85,f_auto,dpr_auto/v1772367446/Screenshot_350_lzkor6.png",
     tools: [
@@ -68,32 +94,7 @@ const projects: Project[] = [
     live: "https://player-leaderboard.vercel.app",
     github: "https://github.com/SolomonNnamani/Player_Leaderboard",
   },
-  {
-    title: "ShopSphere – Admin Control Dashboard",
-    desc: "Full-stack MERN e-commerce admin dashboard with order tracking, user management, real-time performance analytics, and inventory control.",
-    img: "https://res.cloudinary.com/diwn1spcp/image/upload/w_1200,q_85,f_auto,dpr_auto/v1755380053/dashboard_eaf9vg.png",
-    tools: [
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Tailwind",
-      "Gsap",
-      "Express",
-      "OAuth",
-    ],
-    live: "https://shopsphere-online.netlify.app/dashboard/dashboard-login",
-    github:
-      "https://github.com/SolomonNnamani/Shopsphere/tree/main/client/src/components/dashboard",
-  },
-  {
-    title: "ShopSphere – Commerce Platform",
-    desc: "Full-stack e-commerce platform with product browsing, secure checkout, inventory tracking, and a sleek, mobile-friendly UI.",
-    img: "https://res.cloudinary.com/diwn1spcp/image/upload/w_1200,q_85,f_auto,dpr_auto/v1755380063/mainsite_ssgxp7.png",
-    tools: ["React", "Javascript", "MongoDB", "Tailwind", "Gsap", "Cloudinary"],
-    live: "https://shopsphere-online.netlify.app/",
-    github:
-      "https://github.com/SolomonNnamani/Shopsphere/tree/main/client/src/components/mainSite",
-  },
+  
   
   {
     title: "Portfolio Website",
